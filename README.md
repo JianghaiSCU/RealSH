@@ -1,4 +1,4 @@
-# [ICCV 2023] RealHomo: Supervised Homography Learning with Realistic Dataset Generation. [[Paper]]().
+# RealHomo: Supervised Homography Learning with Realistic Dataset Generation. [[Paper]]().
 <h4 align="center">Hai Jiang<sup>1,2</sup>, Haipeng Li<sup>3,2</sup>, Haoqiang Fan<sup>2</sup>, Bing Zeng<sup>3</sup>, Songchen Han<sup>1</sup>, Shuaicheng Liu<sup>3,2</sup></center>
 <h4 align="center">1.Sichuan University, 2.Megvii Technology 
 <h4 align="center">3.University of Electronic Science and Technology of China</center></center>
@@ -17,14 +17,18 @@ Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https:/
 
 - Dataset download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
 
-- Unzip the data to directory "./dataset/img"
-
-- Run "video2img.py"
+- UUnzip the data and Run "video2img.py" to save the images to the directory "./dataset/img"
 ```
 Be sure to scale the image to (640, 360) since the point coordinate system is based on the (640, 360).
 e.g. img = cv2.imresize(img, (640, 360))
 ```
 - Using the images in "train.txt" and "test.txt" for training and evaluation, the manually labeled evaluation files can be download from: [[GoogleDriver]](), [[BaiduYun]]()(key:).
+
+## Download the dominant plane masks for image generation
+- Download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
+
+- Unzip the masks to the directory "./dataset/mask"
+
 ## Pre-trained model
 
 | model    | RE | LT | LL | SF | LF | Avg | Model |
