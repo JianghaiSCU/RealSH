@@ -17,7 +17,7 @@ Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https:/
 
 - Dataset download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
 
-- UUnzip the data and Run "video2img.py" to save the images to the directory "./dataset/img"
+- UUnzip the data and Run "video2img.py" to save the images to the directory "./Homo_data/img"
 ```
 Be sure to scale the image to (640, 360) since the point coordinate system is based on the (640, 360).
 e.g. img = cv2.imresize(img, (640, 360))
@@ -27,7 +27,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 ## Download the dominant plane masks for image generation
 - Download links: [[GoogleDriver]](), [[BaiduYun]]() (key:)
 
-- Unzip the masks to the directory "./dataset/mask"
+- Unzip the masks to the directory "./Homo_data/mask"
 
 ## Pre-trained model
 
