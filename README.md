@@ -33,7 +33,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 
 | model    | RE | LT | LL | SF | LF | Avg | Model |
 | --------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |
-| Pre-trained | 0.22 | 0.35 | 0.44 | 0.42 | 0.29 | 0.34 |[Baidu] [Google] 
+| Pre-trained | 0.22 | 0.35 | 0.44 | 0.42 | 0.29 | 0.34 |[Baidu] [Google](https://drive.google.com/file/d/1U_GmwFZBzV-mmFOj8BlWOwoxVD3lxaUq/view?usp=sharing)
 ## How to train?
 You need to modify ```dataset/data_loader.py``` slightly for your environment, and then
 ```
