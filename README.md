@@ -12,12 +12,12 @@
 pip install -r requirements.txt
 ````
 
-## Download the raw dataset
+## Download the raw CA-unsup dataset
 Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https://github.com/JirongZhang/DeepHomography).
 
 - Dataset download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
 
-- Unzip the data to directory "./dataset"
+- Unzip the data to directory "./dataset/img"
 
 - Run "video2img.py"
 ```
