@@ -6,7 +6,7 @@
 ## Presentation video:  
 [[Youtube]]() and [[Bilibili]]()
 ## Pipeline
-![]()
+![](https://github.com/JianghaiSCU/RealHomo/blob/main/Figs/Pipeline.jpg)
 ## Dependencies
 ```
 pip install -r requirements.txt
