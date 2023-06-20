@@ -25,7 +25,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 - Using the images in "train.txt" and "test.txt" for training and evaluation, the manually labeled evaluation files can be download from: [[GoogleDriver]](), [[BaiduYun]]()(key:).
 
 ## Download the dominant plane masks for image generation
-- Download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
+- Download links: [[GoogleDriver]](), [[BaiduYun]]() (key:)
 
 - Unzip the masks to the directory "./dataset/mask"
 
@@ -33,7 +33,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 
 | model    | RE | LT | LL | SF | LF | Avg | Model |
 | --------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |
-| Pre-trained | 0.22 | 0.35 | 0.44 | 0.42 | 0.29 | 0.34 |[Baidu] [Google](https://drive.google.com/file/d/1U_GmwFZBzV-mmFOj8BlWOwoxVD3lxaUq/view?usp=sharing)
+| Pre-trained | 0.22 | 0.35 | 0.44 | 0.42 | 0.29 | 0.34 |[[Baidu]] [[Google]](https://drive.google.com/file/d/1U_GmwFZBzV-mmFOj8BlWOwoxVD3lxaUq/view?usp=sharing)
 ## How to train?
 You need to modify ```dataset/data_loader.py``` slightly for your environment, and then
 ```
