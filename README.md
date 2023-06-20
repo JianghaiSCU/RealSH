@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ````
 
 ## Download the raw CA-unsup dataset
-Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https://github.com/JirongZhang/DeepHomography).
+Please refer to [Content-Aware Unsupervised Deep Homography Estimation (CAHomo)](https://github.com/JirongZhang/DeepHomography).
 
 - Dataset download links: [[GoogleDriver]](https://drive.google.com/file/d/19d2ylBUPcMQBb_MNBBGl9rCAS7SU-oGm/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1Dkmz4MEzMtBx-T7nG0ORqA) (key:gvor)
 
@@ -22,7 +22,7 @@ Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https:/
 Be sure to scale the image to (640, 360) since the point coordinate system is based on the (640, 360).
 e.g. img = cv2.imresize(img, (640, 360))
 ```
-- Using the images in "train.txt" and "test.txt" for training and evaluation, the manually labeled evaluation files can be download from [Content-Aware Unsupervised Deep Homography Estimation](https://github.com/JirongZhang/DeepHomography).
+- Using the images in "train.txt" and "test.txt" for training and evaluation, and the manually labeled evaluation files can be download from CAHomo repo.
 
 ## Download the dominant plane masks for image generation
 - Download links: [[GoogleDriver]](), [[BaiduYun]]() (key:)
