@@ -22,7 +22,7 @@ Please refer to [Content-Aware Unsupervised Deep Homography Estimation](https:/
 Be sure to scale the image to (640, 360) since the point coordinate system is based on the (640, 360).
 e.g. img = cv2.imresize(img, (640, 360))
 ```
-- Using the images in "train.txt" and "test.txt" for training and evaluation, the manually labeled evaluation files can be download from: [[GoogleDriver]](), [[BaiduYun]]()(key:).
+- Using the images in "train.txt" and "test.txt" for training and evaluation, the manually labeled evaluation files can be download from [Content-Aware Unsupervised Deep Homography Estimation](https://github.com/JirongZhang/DeepHomography).
 
 ## Download the dominant plane masks for image generation
 - Download links: [[GoogleDriver]](), [[BaiduYun]]() (key:)
