@@ -25,7 +25,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 - Using the images in "train.txt" and "test.txt" for training and evaluation, and the manually labeled evaluation files can be download from CAHomo repo.
 
 ## Download the dominant plane masks for image generation
-- Download links: [[GoogleDriver]](), [[BaiduYun]]() (key:)
+- Download links: [[GoogleDriver]](), [[BaiduYun]](https://pan.baidu.com/s/1mSAB8kIczj5AliqlurcOTg) (key:j1zw)
 
 - Unzip the masks to the directory "./Homo_data/mask"
 
