@@ -1,5 +1,5 @@
 # RealHomo: Supervised Homography Learning with Realistic Dataset Generation. [[Paper]]().
-<h4 align="center">Hai Jiang<sup>1,2</sup>, Haipeng Li<sup>3,2</sup>, Haoqiang Fan<sup>2</sup>, Bing Zeng<sup>3</sup>, Songchen Han<sup>1</sup>, Shuaicheng Liu<sup>3,2</sup></center>
+<h4 align="center">[Hai Jiang](https://jianghaiscu.github.io/jianghai/)<sup>1,2</sup>, [Haipeng Li](https://lhaippp.github.io//)<sup>3,2</sup>, Haoqiang Fan<sup>2</sup>, [Bing Zeng](https://www.researchgate.net/profile/Bing-Zeng-4)<sup>3</sup>, Songchen Han<sup>1</sup>, [Shuaicheng Liu](http://www.liushuaicheng.org/)<sup>3,2</sup></center>
 <h4 align="center">1.Sichuan University, 2.Megvii Technology 
 <h4 align="center">3.University of Electronic Science and Technology of China</center></center>
 
