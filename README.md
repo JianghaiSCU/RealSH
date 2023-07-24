@@ -1,4 +1,4 @@
-# RealHomo: Supervised Homography Learning with Realistic Dataset Generation. [[Paper]]().
+# [ICCV 2023]. Supervised Homography Learning with Realistic Dataset Generation. [[Paper]]().
 <h4 align="center">Hai Jiang<sup>1,2</sup>, Haipeng Li<sup>3,2</sup>, Haoqiang Fan<sup>2</sup>, Bing Zeng<sup>3</sup>, Songchen Han<sup>1</sup>, Shuaicheng Liu<sup>3,2</sup></center>
 <h4 align="center">1.Sichuan University, 2.Megvii Technology 
 <h4 align="center">3.University of Electronic Science and Technology of China</center></center>
@@ -37,18 +37,18 @@ e.g. img = cv2.imresize(img, (640, 360))
 ## How to train?
 You need to modify ```dataset/data_loader.py``` slightly for your environment, and then
 ```
-python train.py --model_dir experiments/RealHomo/ 
+python train.py --model_dir experiments/Base/ 
 ```
 ## How to test?
 ```
-python evaluate.py --model_dir experiments/RealHomo/ --restore_file EM2_0.3445.pth
+python evaluate.py --model_dir experiments/Base/ --restore_file Iter2_0.3445.pth
 ```
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
 @InProceedings{jiang_2023_iccv,
     author  = {Jiang, Hai and Li, Haipeng and Fan, Haoqiang and Zeng, Bing and Han, Songchen and Liu, Shuaicheng},
-    title = {RealHomo: Supervised Homography Learning with Realistic Dataset Generation},
+    title = {Supervised Homography Learning with Realistic Dataset Generation},
     booktitle = {Proc. ICCV}
     year = {2023}
 }
