@@ -49,7 +49,7 @@ If you use this code or ideas from the paper for your research, please cite our 
 @InProceedings{jiang_2023_iccv,
     author  = {Jiang, Hai and Li, Haipeng and Fan, Haoqiang and Zeng, Bing and Han, Songchen and Liu, Shuaicheng},
     title = {Supervised Homography Learning with Realistic Dataset Generation},
-    booktitle = {Proc. ICCV}
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision}
     year = {2023}
 }
 ```
