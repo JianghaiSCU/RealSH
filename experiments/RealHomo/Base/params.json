@@ -1,0 +1,27 @@
+{
+    "data_dir": "./Homo_data",
+    "checkpoints_path": "experiments/RealHomo/EM2/EM2_0.3445.pth",
+    "dataset_type": "homo",
+    "net_type": "BasesHomo",
+    "eval_type":  [
+        "val",
+        "test"
+    ],
+    "major_metric": "AVG",
+    "save_mode": "local",
+    "random_homo": 0.10,
+    "learning_rate": 1e-4,
+    "gamma": 0.8,
+    "train_batch_size": 32,
+    "eval_batch_size": 32,
+    "num_epochs": 20,
+    "num_workers": 4,
+    "cpu": 8,
+    "memory": 49600,
+    "gpu":4,
+    "rho": 16,
+    "eval_freq": 2000,
+    "crop_size": [320, 576],
+    "inpainting_weights": 0.1,
+    "selection_weights": 0.1
+}
