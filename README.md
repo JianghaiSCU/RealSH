@@ -43,6 +43,10 @@ python train.py --model_dir experiments/Base/
 ```
 python evaluate.py --model_dir experiments/Base/ --restore_file Iter2_0.3445.pth
 ```
+
+## Supplementary Material
+- Download links: [[GoogleDriver]](https://drive.google.com/file/d/16itODlnviqTRA_nSXXsg9s9EBWCir4gZ/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1LAoi8nn0vdVEPz4CxP4wtA) (key:gwry)
+
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
