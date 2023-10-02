@@ -52,10 +52,12 @@ python evaluate.py --model_dir experiments/Base/ --restore_file Iter2_0.3445.pth
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
-@InProceedings{jiang_2023_iccv,
-    author  = {Jiang, Hai and Li, Haipeng and Fan, Haoqiang and Zeng, Bing and Han, Songchen and Liu, Shuaicheng},
-    title = {Supervised Homography Learning with Realistic Dataset Generation},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision}
-    year = {2023}
+@InProceedings{Jiang_2023_ICCV,
+    author    = {Jiang, Hai and Li, Haipeng and Han, Songchen and Fan, Haoqiang and Zeng, Bing and Liu, Shuaicheng},
+    title     = {Supervised Homography Learning with Realistic Dataset Generation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {9806-9815}
 }
 ```
