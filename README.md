@@ -24,7 +24,7 @@ e.g. img = cv2.imresize(img, (640, 360))
 ```
 - Using the images in "train.txt" and "test.txt" for training and evaluation.
 
-- The manually labeled evaluation files can be download from [[GoogleDriver]](https://drive.google.com/file/d/16itODlnviqTRA_nSXXsg9s9EBWCir4gZ/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1A0pyX_bHkKn_qiDCZF7S3Q) (key:hhnc)
+- The manually labeled evaluation files can be download from [[GoogleDriver]](https://drive.google.com/file/d/1RmI0eKVSV10bXD7MGi15rIWL04OqbzQi/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1kGQmrISdA-14BSbFPO9-cw) (key:mrzz)
 
 ## Download the dominant plane masks for image generation
 - Download links: [[GoogleDriver]](https://drive.google.com/file/d/1cPdh08C-7zYpBtfgnhc2qmKgHR0UO8o-/view?usp=sharing), [[BaiduYun]](https://pan.baidu.com/s/1mSAB8kIczj5AliqlurcOTg) (key:j1zw)
